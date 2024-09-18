@@ -353,7 +353,7 @@ class _LogViewState extends State<LogView> {
   void dispose() {
     timer.cancel();
     super.dispose();
-  }
+  } 
 
   @override
   Widget build(BuildContext context) {
